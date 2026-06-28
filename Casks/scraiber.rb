@@ -16,7 +16,7 @@ cask "scraiber" do
   # The app updates itself via the backend /frontend_version/ check, so Homebrew
   # should not try to manage upgrades of an already-installed copy.
   auto_updates true
-  depends_on macos: ">= :big_sur"
+  depends_on macos: :big_sur
 
   app "Scraiber.app"
 
