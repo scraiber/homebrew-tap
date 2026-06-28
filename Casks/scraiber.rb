@@ -2,8 +2,8 @@ cask "scraiber" do
   version "1.0.0"
   sha256 "bdd689e9fb7a16887fe871942798e7c0a503f017aa47788ba8ad12a043e1ef3e"
 
-  url "https://scraiber-desktop-apps.s3.us-east-1.amazonaws.com/mac/Scraiber_#{version}_universal.dmg",
-      verified: "scraiber-desktop-apps.s3.us-east-1.amazonaws.com/mac/"
+  url "https://dl.scraiber.com/mac/Scraiber_#{version}_universal.dmg",
+      verified: "dl.scraiber.com/mac/"
   name "Scraiber"
   desc "Native desktop client for Scraiber"
   homepage "https://app.scraiber.com/"
